@@ -48,11 +48,11 @@
         <form id="save-person-form">
         <div>
             <input type="hidden" name='person_id' id="person-id" value='{{ $person->person_id}}' />
-            First Name: <input type='text' name='first_name' value='{{$person->first_name}}' /><br />
-            Last Name: <input type='text' name='last_name' value='{{$person->last_name}}' /><br />
-            Email Address: <input type='text' name='email' value='{{$person->email}}' /><br />
-            SSN: <input type='text' name='ssn' value='{{$person->ssn}}' /><br />
-            Active: <input type="checkbox" name='is_active' value=1 checked= {{ $person->is_active ? 'checked' : ''}} />
+            <label>First Name:</label> <input class="form-control" type='text' name='first_name' value='{{$person->first_name}}' /><br />
+            <label>Last Name:</label> <input class="form-control" type='text' name='last_name' value='{{$person->last_name}}' /><br />
+            <label>Email Address:</label> <input class="form-control" type='text' name='email' value='{{$person->email}}' /><br />
+            <label>SSN:</label> <input class="form-control" type='text' name='ssn' value='{{$person->ssn}}' /><br />
+            <label>Active:</label> <input type="checkbox" name='is_active' value=1 checked= {{ $person->is_active ? 'checked' : ''}} />
         </div>
         <div class="alert alert-success" style="display: none" id="success-msg">
             Saved!
