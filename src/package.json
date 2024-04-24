@@ -14,5 +14,11 @@
         "laravel-vite-plugin": "^1.0",
         "prettier": "^2.8.4",
         "vite": "^5.0"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "datatables": "^1.10.18",
+        "datatables.net-bs": "^2.0.5",
+        "jquery": "^3.7.1"
     }
 }

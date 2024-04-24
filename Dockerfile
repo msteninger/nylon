@@ -3,6 +3,7 @@ FROM php:8.2-fpm-alpine
 WORKDIR /var/www/app
 
 RUN apk update && apk add \
+    git \
     curl \
     libpng-dev \
     libxml2-dev \
